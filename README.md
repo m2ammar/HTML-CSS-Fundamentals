@@ -7,7 +7,7 @@ A collection of HTML/CSS practice projects and lab assignments built while learn
 ### 🧾 Student Registration Form
 A multi-section form demonstrating grouped inputs, native form controls, and clean visual hierarchy.
 
-![Registration Form](Registration-Form.png)
+<img src="Registration-Form.png" alt="Registration Form" width="400">
 
 - `fieldset` / `legend` for grouping **Personal Details** and **Academic Information**
 - Full range of input types: text, email, number, radio, checkbox, select, textarea
