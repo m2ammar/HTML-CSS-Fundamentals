@@ -7,6 +7,8 @@ A collection of HTML/CSS practice projects and lab assignments built while learn
 ### 🧾 Student Registration Form
 A multi-section form demonstrating grouped inputs, native form controls, and clean visual hierarchy.
 
+![Registration Form](Registration-Form.png)
+
 - `fieldset` / `legend` for grouping **Personal Details** and **Academic Information**
 - Full range of input types: text, email, number, radio, checkbox, select, textarea
 - Card-style container with soft shadows and rounded corners
@@ -16,6 +18,9 @@ A multi-section form demonstrating grouped inputs, native form controls, and cle
 
 ### 👤 Profile Page (Layout v2)
 A two-column personal profile page built with Flexbox — sidebar navigation alongside a main content area.
+
+![Profile Layout v2](profile-layout-v2.png)
+![Profile Layout v2 detail](profile-layout-v2%20\(1\).png)
 
 - Flexbox-based `sidebar` + `content` layout
 - Styled data table for listing skills and experience levels
@@ -48,4 +53,4 @@ A two-column personal profile page built with Flexbox — sidebar navigation alo
 
 ## Author
 
-Muhammad Ammar ([@m2ammar](https://github.com/m2ammar))
+Muhammad Ammar Saleem ([@m2ammar](https://github.com/m2ammar))
