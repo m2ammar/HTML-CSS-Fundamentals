@@ -1,0 +1,50 @@
+/* Body styling: centers content horizontally and vertically */
+body {
+    display: flex; /* use flexbox layout */
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    height: 100vh; /* make body full viewport height */
+    background-color: #f0f0f0; /* light gray background */
+}
+
+/* Card styling */
+.profile-card {
+    text-align: center; /* center text inside the card */
+    background-color: #fff; /* white background for the card */
+    padding: 20px; /* inner spacing inside card */
+    border-radius: 15px; /* rounded corners */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* shadow effect */
+}
+
+/* Image styling inside card */
+.profile-card img {
+    border-radius: 20%; /* make image circular */
+    margin-bottom: 15px; /* space below the image */
+}
+
+/* Name and role styling */
+.profile-card h2 {
+    margin: 5px 0; /* small margin above and below heading */
+    font-size: 1.5em; /* bigger text for name */
+}
+
+.profile-card p {
+    margin: 5px 0 15px; /* small margin above, bigger below paragraph */
+    color: gray; /* gray color for role or description */
+}
+
+/* Button styling */
+.profile-card button {
+    background-color: blue; /* button background color */
+    color: white; /* button text color */
+    padding: 10px 20px; /* space inside button */
+    border: none; /* remove default button border */
+    border-radius: 10px; /* rounded corners */
+    cursor: pointer; /* change cursor to pointer on hover */
+}
+
+/* Button hover effect */
+.profile-card button:hover {
+    background-color: aqua; /* change color when hovered */
+}
+

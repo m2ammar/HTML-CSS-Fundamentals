@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    
+    <!-- Basic CSS Styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 450px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 25px 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 16px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #2980b9;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h2>Student Registration Form</h2>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Details</legend>
+            
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="10" max="100" required>
+            
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Academic Information</legend>
+            
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="">-- Choose Course --</option>
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+                <option value="se">Software Engineering</option>
+            </select>
+            
+            <label>Interests:</label><br>
+            <input type="checkbox" name="interest" value="coding"> Coding
+            <input type="checkbox" name="interest" value="design"> Web Design
+            <input type="checkbox" name="interest" value="ai"> AI & ML<br><br>
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Write something..."></textarea>
+        </fieldset>
+        
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+</div>
+</body>
+</html>

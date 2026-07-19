@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Favorite Fruits (Unordered List)</h1>
+<ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+    <li>Strawberry</li>
+</ul>
+<hr>
+<br>
+<ol type="1" start="5">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+    <li>Strawberry</li>
+</ol>
+
+<!--Attributes:
+type="1" (numbers)
+type="A" (uppercase letters)
+type="a" (lowercase letters)
+type="I" (uppercase Roman)
+start="5" (starts numbering from 5)-->
+
+
+<hr>
+<h3>Nested List Example</h3>
+<ul>
+    <li>Programming Languages
+        <ol>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+        </ol>
+    </li>
+    <li>Markup Languages
+        <ol>
+            <li>HTML</li>
+            <li>XML</li>
+        </ol>
+    </li>
+</ul>
+
+<hr>
+<h3>Student Information</h3>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Grade</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>101</td>
+        <td>A</td>
+    </tr>
+    <tr>
+        <td>Sara</td>
+        <td>102</td>
+        <td>B+</td>
+    </tr>
+</table>
+<br>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <td>Ali
+        <td>Sara</td>
+    </tr>
+    <tr>
+        <th>Roll No</th>
+        <td>101</td>
+        <td>102</td>
+        
+    </tr>
+    <tr>
+        <th>Grade</th>
+        <td>A</td>
+        <td>B+</td>
+    </tr>
+</table>
+
+<hr>
+<h3>Contact Form</h3>
+<form action="/submit_form" method="post">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="fullname"><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+    
+    <label for="pw">Password:</label>
+    <input type="checkbox" id="pw" name="email"><br><br>
+    <input type="checkbox" id="pw2" name="email"><br><br>
+    <input type="color" id="pw2" name="email"><br><br>
+    <input type="file" id="pw3" name="email"><br><br>
+    <input type="range" id="pw4" name="email"><br><br>
+    <input type="reset" id="pw5" name="email"><br><br>
+    
+    <input type="submit" value="Send Message">
+</form>
+
+<hr>
+
+<h3>Registration Form</h3>
+<form>
+    <label>Username:</label>
+    <input type="text" name="username" required><br><br>
+    
+    <label>Password:</label>
+    <input type="password" name="password" required><br><br>
+    
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+    
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby" value="reading"> Reading<br>
+    <input type="checkbox" name="hobby" value="music"> Music<br>
+    <input type="checkbox" name="hobby" value="sports"> Sports<br><br>
+    
+    <label>Upload Profile Picture:</label>
+    <input type="file" name="photo"><br><br>
+    
+    <label>Select Country:</label>
+    <select name="country">
+        <option value="pk">Pakistan</option>
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+    </select><br><br>
+    
+    <label>Bio:</label><br>
+    <textarea name="bio" rows="3" cols="30"></textarea><br><br>
+    
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>

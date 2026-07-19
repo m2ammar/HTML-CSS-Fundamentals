@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* full screen centering */
+}
+.container{
+    background-color: aqua;
+    text-align: center;
+    box-shadow: 5px 10px 15px pink;  /* for box always three to four values */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.container img{
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+.container h2{
+    margin: 10px 0;
+    font-size: 1.5em;
+    padding: 10px 20px;
+}
+.container p{
+    color: green;
+    padding: 0 10px;
+    font-size: 1em;
+}
+.container button{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* full screen centering */
+}
+.container{
+    background-color: aqua;
+    text-align: center;
+    box-shadow: 5px 10px 15px pink;  /* for box always three to four values */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.container img{
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+.container h2{
+    margin: 10px 0;
+    font-size: 1.5em;
+    padding: 10px 20px;
+}
+.container p{
+    color: green;
+    padding: 0 10px;
+    font-size: 1em;
+}
+.container button{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.container button:hover{
+    background-color: yellowgreen;
+}
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.container button:hover{
+    background-color: yellowgreen;
+}

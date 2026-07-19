@@ -1,0 +1,48 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: aquamarine;
+    color: black;
+    display: flex;             /* make body a flex container */
+    flex-direction: column;    /* stack nav and footer vertically */
+    justify-content: center;   /* center them vertically */
+    align-items: center;       /* center them horizontally */
+    min-height: 100vh;         /* full viewport height */
+    gap: 100px;   
+}
+.nav-menu{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.nav-menu a{
+    color:blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+
+}
+.nav-menu a:hover{
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.footer{
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px;
+}

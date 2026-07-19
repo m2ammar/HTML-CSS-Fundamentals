@@ -1,0 +1,94 @@
+.h1{
+    background-color: blue;
+    padding: 25px;
+    margin: 0%;
+    text-align: center;
+   color: white;
+}
+.container{
+    display: flex;
+    gap:30px;
+    align-items: stretch;
+}
+.sidebar{
+    flex: 1;
+ background-color: indigo;
+ list-style: none;
+ padding: 25px;
+ margin: 0 10px 10px 0;
+ height: auto;
+ width: 150px;
+ 
+}
+.main{
+    flex: 3;
+    background-color: darkgrey;
+    padding: 20px;
+    height: auto;
+}
+h2{
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+}
+.image-container{
+ border-radius: 5px;
+ align-items: center;
+ align-content: center;
+}
+.image-container img{
+    align-content: center;
+    align-items: center;
+}
+table{
+    border: 2px solid;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 400px;
+}
+tr{
+    /* border: 2px solid; */
+    padding: 20px 20px 20px 30px;
+    margin: 20px;
+}
+
+th, td{
+    background-color: aqua;
+    padding: 10px;
+    border: 1px solid black;
+}
+form{
+    display: block;
+    margin-bottom: 5px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 800px;
+    padding: 20px; 
+}
+form input {
+    width: 90%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+form textarea {
+    width: 90%;        /* same as input */
+    height: 120px;     /* better height */
+    padding: 8px;
+    margin-bottom: 10px;
+    resize: vertical;  /* allow only vertical resizing */
+}
+form button {
+    padding: 8px 15px;
+    margin-top: 10px;
+
+}
+.footer{
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    width: 100%;      
+    display: block;
+}

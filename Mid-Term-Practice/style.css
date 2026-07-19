@@ -1,0 +1,132 @@
+ .header {
+     background-color: #3498db;
+     color: white;
+     padding: 20px;
+     text-align: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+     z-index: 1000;
+ }
+
+ .spacer {
+     height: 100px
+ }
+
+ .container {
+     display: flex;
+     justify-content: space-between;
+     max-width: 1100px;
+     margin: 0 auto;
+     padding: 20px;
+     gap: 20px;
+ }
+
+ .sidebar {
+     flex: 1;
+     background-color: #ecf0f1;
+     padding: 15px;
+     border-radius: 8px;
+ }
+
+ .content {
+     flex: 3;
+     background-color: white;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ p {
+     color: #555555;
+     line-height: 1.6;
+     margin-bottom: 15px;
+ }
+
+ .image-container {
+     text-align: center;
+     margin: 20px 0;
+ }
+
+ .image-container img {
+     width: 60px;
+     height: auto;
+     border-radius: 10px;
+     border: 1px solid #3498db;
+ }
+
+ ul {
+     list-style-type: square;
+     margin-left: 20px;
+ }
+
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 15px;
+ }
+
+ th,
+ td {
+     border: 1px solid #3498db;
+     padding: 10px;
+     text-align: center;
+ }
+
+ th {
+     background-color: #3498db;
+     color: white;
+ }
+
+ tr:nth-child(even) {
+     background-color: #d4d9da;
+ }
+
+ form {
+     margin-top: 20px;
+     padding: 20px;
+     background-color: #f9f9f9;
+     border-radius: 8px;
+     border: 1px solid #cccccc;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+ }
+
+ input,
+ textarea {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     border: 1px solid #cccccc;
+     font-size: 14px;
+ }
+
+ button {
+     background-color: #3498db;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ button:hover {
+     background-color: #2C80b4;
+ }
+
+ .footer {
+     background-color: #3498db;
+     color: white;
+     text-align: center;
+     padding: 15px 0;
+     margin-top: 40px;
+     border-radius: 8px;
+ }
