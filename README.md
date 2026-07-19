@@ -20,7 +20,7 @@ A multi-section form demonstrating grouped inputs, native form controls, and cle
 A two-column personal profile page built with Flexbox — sidebar navigation alongside a main content area.
 
 ![Profile Layout v2](profile-layout-v2.png)
-![Profile Layout v2 detail](profile-layout-v2%20\(1\).png)
+![Profile Layout v2 detail](profile-layout-v2(1).png)
 
 - Flexbox-based `sidebar` + `content` layout
 - Styled data table for listing skills and experience levels
