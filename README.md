@@ -58,4 +58,5 @@ A two-column personal profile page built with Flexbox — sidebar navigation alo
 **Muhammad Ammar Saleem**
 
 [![GitHub](https://img.shields.io/badge/GitHub-m2ammar-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/m2ammar)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Ammar%20Saleem-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-ammar-b533a0323/)
